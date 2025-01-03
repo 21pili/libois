@@ -9,6 +9,7 @@ library(moments)
 library(MASS)       # Pour LAD
 library(quantreg)   # Pour LAD
 library(robustbase) # Pour M-, S-, et MM-estimations
+library(RobStatTM)
 #VIF stuff
 library(car) # Pour la fonction vif()
 #Bootstrap stuff
@@ -16,7 +17,9 @@ library(boot)
 library(dplyr)
 library(ggplot2)
 library(tidyr)
-library(patchwork)}
+library(patchwork)
+library(xtable)
+library(reshape2)}
 
 #### Code ####
 
